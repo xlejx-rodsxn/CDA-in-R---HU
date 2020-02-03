@@ -1,0 +1,74 @@
+---
+title: 'Intro to CDA: ggplot2'
+author: "Alejandra Rodríguez Sánchez"
+date: "2/2/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Previously on CDA
+
+***
+- We discussed missing data
+
+# Missing data
+
+# Jump directly into R
+
+# ggplot2
+
+## Grammar of graphics: 
+
+- "a statistical graphic is a mapping from data to aesthetic attributes (colour, shape, size) of geometric objects (points, lines, bars)"
+
+## Composition of plots I
+1. Data you want to visualise 
+2. Set of aesthetic mappings 
+
+- These mappings describe how variables are mapped to aesthetic attributes
+
+## Composition of plots II
+- Layers made up of geometric elements and statistical transformation (points, lines, polygons, etc.; summary statistics)
+- The scales map values in the data space to values in an aesthetic space (e.g. legends, axis)
+- A coordinate system: how data coordinates are mapped to the plane of the graphic (e.g. cartesian coordinate system)
+- A faceting specification describes how to break up the data into subsets and how to display those subsets as small multiples. This is also known as conditioning or latticing/trellising.
+- A theme; the finer points of display (e.g. font size and background colour)
+
+## What we should think of...
+Some considerations:
+- To display the data (detect patterns and explore the data)
+- To display a statistical summary of the data (results of a more refined analysis)
+- To add additional metadata: context, annotations, and references
+
+## Better plots
+- "By understanding the grammar, and how its components fit together, you can create a wider range of visualizations, combine multiple sources of data, and customise to your heart’s content"
+- Why ggplot2? We can separate two tasks: 1. ggplot2 turns data frames into visualisations; 2. we focus on our analysis
+
+## What type of plot?
+- Barplots
+- Histograms
+- Plots for summary
+- Predicted probabilty plots
+- Forest plots
+
+# Back to R
+
+# Rmarkdown
+
+## Other Rmarkdown features
+- Hiding the code
+- Printing tables of summary stats
+- Latex
+
+# Next on CDA
+
+***
+- Overview of the course
+- Repeat again the standards for the paper
+- *Deadline* End of March 2020
+
+### Hands on approach
+- Bring your data and all your questions, doubts, inquiries, etc. to class
